@@ -7,11 +7,10 @@ function theBeatlesPlay(am, ai) {
 }
 
 function johnLennonFacts(arg) {
-  var array = []
+  const facts = arg
   var i = 0;
-  array = array.push(arg)
-  while (i < array.length) {
-    array[i] = array[i] + "!!!"
+  while (i < facts.length) {
+    facts[i] = facts[i] + "!!!"
     i++
   }
   return array
